@@ -1,11 +1,11 @@
-import './logo.css';
+import './logo.css'
 import React from 'react';
 
-import Logo from '../../../assets/img/logo.png'
+import logo from '../../../assets/img/logo.png'
 
 export default props=>
-    <aside className="Logo">
-        <a href="/" className="Logo">
-            <img src="{Logo}" alt="iconLogo" />
+    <aside className="logo">
+        <a href="/" className="logo">
+            <img src={logo} alt="iconLogo" />
         </a>
     </aside>
